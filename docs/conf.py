@@ -10,7 +10,10 @@ source_suffix = {
 
 html_theme = "sphinx_book_theme"
 
-sphinx_external_needs={
+myst_enable_extensions = [
+    "colon_fence"
+]
+sphinx_external_needs=[
     dict(directive="req", title="Requirement", prefix="REQ_", color="#BFD8D2",style="node", style_data={"shape": "box"}),
     dict(directive="spec", title="Specification", prefix="SPEC_", color="#F5B7B1",style="node", style_data={"shape": "box3d"}),
-}
+]
