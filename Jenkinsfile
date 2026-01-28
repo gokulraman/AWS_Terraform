@@ -17,6 +17,8 @@ pipeline {
             steps {
                 // Install sphinx and sphinx-needs
                 //sh 'cd AWS_Terraform'
+                sh 'python3 -m venv ${WORKSPACE}/venv'
+                sh '. ${WORKSPACE}/venv/bin/activate'
                 sh 'pip3 install -r requirements.txt'
             }
         }
