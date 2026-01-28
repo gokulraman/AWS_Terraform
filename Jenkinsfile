@@ -16,7 +16,7 @@ pipeline {
         stage('Install Dependencies') {
             steps {
                 // Install sphinx and sphinx-needs
-                sh 'pip install -r requirements.txt'
+                sh 'python3 pip install -r requirements.txt'
             }
         }
 
