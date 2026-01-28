@@ -1,8 +1,11 @@
 pipeline {
     agent any
 
+
+
     environment {
         VENV = "${WORKSPACE}/venv"
+        GITHUB_CREDS = credentials('github-PAT')
     }
 
     stages {
