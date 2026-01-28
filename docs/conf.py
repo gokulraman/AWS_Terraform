@@ -8,7 +8,7 @@ source_suffix = {
     ".md": "markdown",
 }
 
-html_theme = "furo"
+#html_theme = "furo"
 
 myst_enable_extensions = [
     "colon_fence"

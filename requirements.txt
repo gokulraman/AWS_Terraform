@@ -14,7 +14,7 @@ sphinx-needs==3.0.0
 # Optional: Theme and UI Helpers
 sphinx-rtd-theme==2.0.0
 sphinx-copybutton==0.5.2
-
+furo
 # Optional: Jira Integration (Advanced)
 # If you want to pull data directly from Jira APIs during build
 # requests==2.31.0
