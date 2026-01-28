@@ -9,7 +9,7 @@ sphinx-needs==3.0.0
 
 # Optional: Interactive Visualizations (Graphviz)
 # Used if you want to generate flowcharts of your requirements
-sphinxcontrib-needs-2-mermaid==0.0.2
+sphinxcontrib-needs-2-mermaid
 
 # Optional: Theme and UI Helpers
 sphinx-rtd-theme==2.0.0
