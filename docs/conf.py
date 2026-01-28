@@ -1,7 +1,7 @@
 extensions = [
     "sphinx_needs",
     "myst_parser",
-    "sphinx-copybutton",
+  #  "sphinx-copybutton",
 ]
 
 source_suffix = {
