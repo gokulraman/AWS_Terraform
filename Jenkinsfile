@@ -16,6 +16,7 @@ pipeline {
         stage('Install Dependencies') {
             steps {
                 // Install sphinx and sphinx-needs
+                sh 'cd AWS_Terraform'
                 sh 'python3 pip install -r requirements.txt'
             }
         }
