@@ -27,19 +27,19 @@ pipeline {
             }
         }
 
-        // stage('Deploy to GitHub Pages') {
-        //     steps {
-        //         script {
-        //             sh """
-        //                 cd build/html
-        //                 git init
-        //                 git add .
-        //                 git commit -m "Deploy docs version ${env.BUILD_NUMBER}"
-        //                 # Push to the 'gh-pages' branch of your repo
-        //                 git push -f git@github.com:gokulraman/AWS_Terraform.git main:gh-pages
-        //             """
-        //         }
-        //     }
-        // }
+        stage('Deploy to GitHub Pages') {
+            steps {
+                script {
+                    sh """
+                        cd build/html
+                        git init
+                        git add .
+                        git commit -m "Deploy docs version ${env.BUILD_NUMBER}"
+                        # Push to the 'gh-pages' branch of your repo
+                        git push -f git@github.com:gokulraman/AWS_Terraform.git main:gh-pages
+                    """
+                }
+            }
+        }
     }
 }
