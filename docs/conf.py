@@ -1,4 +1,4 @@
-extentions = [
+extensions = [
     "sphinx-needs",
     "myst_parser",
     "sphinx-copybutton",
