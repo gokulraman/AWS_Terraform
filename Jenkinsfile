@@ -5,7 +5,7 @@ pipeline {
 
     environment {
         VENV = "${WORKSPACE}/venv"
-        GITHUB_CREDS = credentials('github-PAT')
+        GITHUB_CREDS = credentials('github')
     }
 
     stages {
