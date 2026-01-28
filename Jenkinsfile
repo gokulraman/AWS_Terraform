@@ -41,7 +41,7 @@ pipeline {
                     git init -b main
                     git add .
                     git commit -m "Deploy docs build ${BUILD_NUMBER}"
-                    git push -f https://${GITHUB_CREDS}@github.com/gokulraman/AWS_Terraform.git HEAD:gh-pages
+                    git push -f https://gokulraman:${GITHUB_CREDS}@github.com/gokulraman/AWS_Terraform.git HEAD:gh-pages
 
                 '''
             }
