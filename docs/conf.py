@@ -1,5 +1,5 @@
 extensions = [
-    "sphinx-needs",
+    "sphinx_needs",
     "myst_parser",
     "sphinx-copybutton",
 ]
