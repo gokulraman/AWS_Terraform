@@ -1,15 +1,14 @@
-# Requirements
-```md
+# Project Requirements
+
 ```{req} Sample requirement 1 
 :id: REQ_001
 :status: open
 
 The system shall allow users to log in via OAuth2.
+```
 
-
-```{req} Sample requirement 2 (dummy data) 
+```{req} Sample requirement 3 
 :id: REQ_002
-:status: in-progress
+:status: open
 
-The system shall allow to access dummy data
-
+The system shall allow users to log in via OAuth2.

@@ -20,3 +20,8 @@ sphinx-copybutton
 # Optional: Jira Integration (Advanced)
 # If you want to pull data directly from Jira APIs during build
 # requests==2.31.0
+
+sphinxcontrib-spelling
+sphinx-linkcheck
+docutils
+markdownlint-cli

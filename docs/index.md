@@ -4,6 +4,6 @@
 ```{toctree}
 :maxdepth: 2
 
-requirement
+requirements
 specs
 tracebility
